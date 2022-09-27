@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "testapp",
     "name": "testapp",
     "slug": "testapp",
     "version": "1.0.0",
@@ -18,7 +19,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.theadultnoble.testapp"
     },
     "android": {
       "adaptiveIcon": {
@@ -28,6 +30,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4435ae7b-902d-4744-b1f8-b3e897845956"
+      }
     }
   }
 }
